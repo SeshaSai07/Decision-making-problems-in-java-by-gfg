@@ -1,0 +1,63 @@
+Question:
+Given a number a, you have to use a switch statement to print "One" if the given number is equal to 1, "Two" if the number is 2, and so on till 9 ("Nine") else print "Unknown".
+
+Note: Print the statements without quotes.
+
+Examples:
+
+Input: a = 10
+Output: Unknown
+Input: a = 1
+Output: One
+
+Solution:
+//Back-end complete function Template for Java
+import java.util.*;
+
+public class Solution {
+    public static void main(String args[]) {
+        // Your Code Here
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        switch(a){
+            case 1:
+                System.out.println("One");
+                break;
+                
+            case 2:
+                System.out.println("Two");
+                break;
+            
+            case 3:
+                System.out.println("Three");
+                break;
+            
+            case 4:
+                System.out.println("Four");
+                break;
+                
+            case 5:
+                System.out.println("Five");
+                break;
+                
+            case 6:
+                System.out.println("Six");
+                break;
+            
+            case 7:
+                System.out.println("Seven");
+                break;
+                
+            case 8:
+                System.out.println("Eight");
+                break;
+            
+            case 9:
+                System.out.println("Nine");
+                break;
+            
+            default:
+                 System.out.println("Unknown");
+        }
+    }
+}
